@@ -1,0 +1,64 @@
+tipo;id;nombre;subtipo;edad;anios;valor;referencia;fecha;estado;extra
+SUEGRA;SG01;Dona Magnolia;Omnipresente;76;14;45;;;;
+SUEGRA;SG02;Dona Hortensia;Digital;56;8;37;;;;
+SUEGRA;SG03;Dona Gertrudis;Clasica;75;25;82;;;;
+SUEGRA;SG04;Dona Blanca;Digital;85;1;55;;;;
+SUEGRA;SG05;Dona Perpetua;Financiera;48;38;88;;;;
+SUEGRA;SG06;Dona Casilda;Digital;62;18;56;;;;
+SUEGRA;SG07;Dona Eufrasia;Financiera;56;3;9;;;;
+SUEGRA;SG08;Dona Rosario;Omnipresente;49;10;75;;;;
+SUEGRA;SG09;Dona Anastasia;Digital;76;2;74;;;;
+SUEGRA;SG10;Dona Consuelo;Clasica;56;26;4;;;;
+NUCLEO;NF01;;;;;;SG03;;;
+NUCLEO;NF02;;;;;;SG04;;;
+NUCLEO;NF03;;;;;;SG10;;;
+NUCLEO;NF04;;;;;;SG01;;;
+ACTOR;AF01;N1;Nuera;46;11;80;NF01;;;
+ACTOR;AF02;Y2;Yerno;21;8;83;NF02;;;
+ACTOR;AF03;Y3;Yerno;21;11;12;NF02;;;
+ACTOR;AF04;N4;Nuera;38;9;94;NF02;;;
+ACTOR;AF05;N5;Nuera;35;3;60;NF02;;;
+ACTOR;AF06;Y6;Yerno;41;13;94;NF03;;;
+ACTOR;AF07;Y7;Yerno;38;19;52;NF04;;;
+ACTOR;AF08;Y8;Yerno;45;11;63;NF04;;;
+CONFLICTO;CF001;;vestimentario;4;;;NF02;2026-05-08;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF002;;cria-de-nietos;1;;;NF01;2026-04-06;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF003;;ceremonial;3;;;NF01;2026-02-23;cronico;latente>activo>cronico
+CONFLICTO;CF004;;gastronomico;5;;;NF03;2026-03-07;cronico;latente>activo>en_mediacion>cronico
+CONFLICTO;CF005;;vestimentario;9;;;NF01;2026-03-23;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF006;;vestimentario;1;;;NF03;2026-05-30;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF007;;cria-de-nietos;4;;;NF02;2026-02-08;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF008;;tecnologico;7;;;NF01;2026-04-09;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF009;;territorial;6;;;NF02;2026-05-17;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF010;;territorial;1;;;NF02;2026-02-06;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF011;;cria-de-nietos;9;;;NF03;2026-01-29;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF012;;cria-de-nietos;3;;;NF03;2026-06-15;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF013;;cria-de-nietos;9;;;NF01;2026-03-27;cronico;latente>activo>en_mediacion>cronico
+CONFLICTO;CF014;;territorial;5;;;NF03;2026-01-03;cronico;latente>activo>cronico
+CONFLICTO;CF015;;tecnologico;6;;;NF03;2026-05-03;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF016;;cria-de-nietos;10;;;NF03;2026-01-01;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF017;;vestimentario;10;;;NF04;2026-03-24;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF018;;financiero;10;;;NF02;2026-05-16;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF019;;financiero;2;;;NF04;2026-04-16;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF020;;tecnologico;6;;;NF03;2026-04-20;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF021;;vestimentario;6;;;NF01;2026-03-12;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF022;;cria-de-nietos;1;;;NF02;2026-01-01;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF023;;ceremonial;6;;;NF02;2026-01-22;cronico;latente>activo>cronico
+CONFLICTO;CF024;;financiero;4;;;NF03;2026-04-15;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF025;;gastronomico;2;;;NF02;2026-03-04;cronico;latente>activo>cronico
+CONFLICTO;CF026;;ceremonial;10;;;NF02;2026-03-21;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF027;;gastronomico;1;;;NF01;2026-05-13;cronico;latente>activo>en_mediacion>cronico
+CONFLICTO;CF028;;gastronomico;4;;;NF01;2026-04-15;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF029;;vestimentario;9;;;NF04;2026-04-29;en_mediacion;latente>activo>en_mediacion
+CONFLICTO;CF030;;cria-de-nietos;3;;;NF03;2026-04-30;cronico;latente>activo>cronico
+CONFLICTO;CF031;;ceremonial;5;;;NF03;2026-05-14;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF032;;tecnologico;8;;;NF01;2026-02-25;resuelto;latente>activo>en_mediacion>resuelto
+CONFLICTO;CF033;;cria-de-nietos;9;;;NF02;2026-06-13;cronico;latente>activo>cronico
+CONFLICTO;CF034;;tecnologico;6;;;NF01;2026-05-11;cronico;latente>activo>cronico
+CONFLICTO;CF035;;gastronomico;2;;;NF04;2026-04-16;cronico;latente>activo>cronico
+MEDIACION;MD01;;Diplomatico;;;acuerdo;CF007;2026-04-05;;
+MEDIACION;MD02;;Autoritario;;;fracaso;CF004;2026-05-10;;
+MEDIACION;MD03;;Terapeutico;;;acuerdo;CF013;2026-04-23;;
+MEDIACION;MD04;;Terapeutico;;;acuerdo;CF027;2026-04-17;;
+MEDIACION;MD05;;Diplomatico;;;fracaso;CF020;2026-04-09;;
+MEDIACION;MD06;;Terapeutico;;;acuerdo;CF028;2026-05-27;;
