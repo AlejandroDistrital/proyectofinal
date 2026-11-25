@@ -31,7 +31,7 @@ Proyecto_final_code/
 ├── .agents/                    # Especificación y configuración de auditoría
 ├── datos/                      # Semilla datos_prueba_SGR26G05-03.csv y enunciado PDF
 ├── docs/                       # Bitácora de desarrollo
-└── proyecto_final/             # Proyecto Maven (Java 17+ / JavaFX 23.0.2 / JUnit 5.11.4)
+└── proyecto_final/             # Proyecto Maven (Java 21+ / JavaFX 23.0.2 / JUnit 5.11.4)
     ├── pom.xml
     └── src/
         ├── main/java/com/sgr/
@@ -52,7 +52,7 @@ Proyecto_final_code/
 ---
 
 ## Requisitos y Dependencias
-* **JDK:** Java 17 o superior (probado con OpenJDK 25.0.2)
+* **JDK:** Java 21 o superior (requerido por JavaFX 23.0.2; probado con JDK 21 y OpenJDK 25)
 * **Gestor de Construcción:** Apache Maven 3.8+ (incluye wrapper en `~/.m2/wrapper` si no está en `PATH`)
 * **Dependencias declaradas en `proyecto_final/pom.xml`:**
   * `org.openjfx:javafx-controls:23.0.2`
